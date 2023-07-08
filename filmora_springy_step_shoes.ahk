@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -23,11 +23,11 @@ Click, 205 50 ; mouse coords for transition tab on my monitor
 return
 
 F4::
-Send, ^b ; splits video on playhead position
+Click, 275 50 ; mouse coords for effects tab on my monitor
 return
 
 F5::
-Send, !e ; shows video properties. Useful for transforms, motion tracking, etc.
+Send, ^b ; splits video on playhead position
 return
 
 F6::
