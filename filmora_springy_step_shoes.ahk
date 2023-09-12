@@ -46,30 +46,37 @@ return
 F9:: ; Fade in for audio since filmora lacks this basic functionality...
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
 Click, 82 47 Left ; Clicks on the audio tab
-Click, 788 135 Left ; Clicks on fade in field
-Click, 788 135 Left ; Clicks on fade in field
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
+Click, 804 135 Left ; Clicks on fade in field
+Click, 804 135 Left ; Clicks on fade in field
 Send, .5 ; Adds .5 seconds of audio fade in to the selected clip in the timeline
 return
 
 F10:: ; Fade out for audio since filmora lacks this basic functionality...
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
 Click, 82 47 Left ; Clicks on the audio tab
-Click, 788 174 Left ; Clicks on fade out field
-Click, 788 174 Left ; Clicks on fade out field
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
+Click, 804 174 Left ; Clicks on fade out field
+Click, 804 174 Left ; Clicks on fade out field
 Send, .5 ; Adds .5 seconds of audio fade out to the selected clip in the timeline
 return
 
 F11:: ; Fade in & out for audio since filmora lacks this basic functionality...
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
 Send, {Click} ; Clicks on the timeline to bring up the properties of the video
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
 Click, 82 47 Left ; Clicks on the audio tab
-Click, 788 135 Left ; Clicks on fade in field
-Click, 788 135 Left ; Clicks on fade in field
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
+Click, 804 135 Left ; Clicks on fade in field
+Click, 804 135 Left ; Clicks on fade in field
 Send, .5 ; Adds .5 seconds of audio fade in to the selected clip in the timeline
-Click, 788 174 Left ; Clicks on fade out field
-Click, 788 174 Left ; Clicks on fade out field
+Sleep, 100 ; adds a small delay or the script will run too quick and click before the tab is visible on screen.
+Click, 804 174 Left ; Clicks on fade out field
+Click, 804 174 Left ; Clicks on fade out field
 Send, .5 ; Adds .5 seconds of audio fade out to the selected clip in the timeline
 return
 
